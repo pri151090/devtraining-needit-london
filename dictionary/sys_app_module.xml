@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="no_list_protection=true,all_tables.text_index_translations=true,update_synch=true" audit="true" extends="sys_metadata" label="Module" max_length="40" name="sys_app_module" read_roles="admin" text_index="true" type="collection">
+        <element label="Restricted user group" max_length="32" name="x_58872_needit_restricted_user_group" reference="sys_user_group" type="reference"/>
+    </element>
+</database>
